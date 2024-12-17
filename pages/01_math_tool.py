@@ -51,6 +51,7 @@ def find_closest_prime(n):
 # Streamlit UI 구성
 st.title("가장 가까운 소수 찾기")
 st.write("숫자를 입력하면 해당 숫자가 소수인지 확인하고 가장 가까운 소수를 찾아줍니다.")
+st.write("너무 큰 수나 자연수가 아닌 수는 넣으면 작동하지 않습니다.")
 
 # 사용자 입력
 num = st.number_input("숫자를 입력하세요 (0 입력 시 프로그램 종료)", min_value=0, step=1, value=0)
