@@ -1,5 +1,8 @@
 import streamlit as st
 
+st.write("~~")
+
+
 # 소수 판별 함수
 def is_prime(n):
     # 2보다 작은 수는 소수가 아님
