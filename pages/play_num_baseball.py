@@ -1,6 +1,8 @@
 import streamlit as st
 import random
 
+st.write("~~")
+
 # 랜덤 숫자 생성 함수
 def generate_number():
     return random.sample(range(10), 3)
